@@ -1,7 +1,7 @@
 <?php
 $server="localhost";
 $username="id20187026_localhost";
-$password="Vivek@123456";
+$password="123456";
 $db="id20187026_vehiclerent";
 $conn=mysqli_connect($server,$username,$password,$db);
 if(!$conn){
