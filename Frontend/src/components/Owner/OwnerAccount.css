@@ -1,0 +1,53 @@
+/* Center the Account Page */
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightgray;
+  }
+  
+  /* Account Card */
+  .account-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+  }
+  
+  /* Title */
+  .account-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Input Fields */
+  .account-field {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .account-field label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .account-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    color: #333;
+    cursor: not-allowed;
+  }
+  
+
+  
